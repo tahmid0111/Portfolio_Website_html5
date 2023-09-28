@@ -110,12 +110,18 @@ a:hover{
 .social-area li:hover a .svg-inline--fa{
     color: white;
 }
-.mys{color: red;}
+.mys{
+  color: red;
+}
 .picture-area img{
     width: 70%;
 }
 /* =========about-area-end============ */
 /* =========flip-box============ */
+.must-read-area{
+  padding: 50px 0;
+  background-color: bisque;
+}
 .flip-box {
     background-color: transparent;
     width: 300px;
@@ -226,3 +232,9 @@ a:hover{
     color: white;
   }
 /* =========ribbon========== */
+/* =========skills-area-start========== */
+.skills-area{
+  background-color: rgb(234, 226, 255);
+  padding: 50px 0;
+}
+/* =========skills-area-end============ */
