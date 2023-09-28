@@ -1,0 +1,231 @@
+:root{
+    --mainColor: #4E3636;
+}
+::selection{
+    color: white;
+    background-color: red;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+/* =========header-area-start========= */
+.header-area{
+    width: 100%;
+    background-color: black;
+    height: 700px;
+    position: relative;
+}
+.header-area h1{
+    position: relative;
+}
+.nav-area{
+    position: absolute;
+    top: 5%;
+    right: 30px;
+}
+.nav-area{}
+.nav-area ul{}
+.nav-area li{
+    display: inline-block;
+    
+}
+.nav-area li a{
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    transition: .2s;
+}
+.nav-area li:hover a{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.writing-area{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+.writing-area h1{
+    color: white;
+    font-size: 50px;
+}
+.writing-area h4{
+    padding-top: 5%;
+    color: white;
+}
+.writing-span{
+    color: red !important;
+}
+/* =========header-area-end=========== */
+/* =========about-area-start========== */
+.common-header{
+    margin: 0px 0px 50px;
+}
+.common-header h1{
+    width: 100%;
+}
+.about-area{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    padding: 100px 0px;
+}
+.left-about{
+    padding: 30px 0px;
+}
+.left-about p{
+    padding: 30px 0px;
+    font-size: 20px;
+}
+.social-area{}
+.social-area li{
+    display: inline-block;
+}
+.social-area li a{
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 10px 30px;
+    margin: 0 40px 0 0;
+}
+.social-area li a .svg-inline--fa{
+    color: red;
+    transition: .2s;
+}
+.social-area li:hover a .svg-inline--fa{
+    color: white;
+}
+.mys{color: red;}
+.picture-area img{
+    width: 70%;
+}
+/* =========about-area-end============ */
+/* =========flip-box============ */
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+.flip-box-pro {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-box-inner-pro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-box-pro:hover .flip-box-inner-pro {
+    transform: rotateX(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  .flip-box-front-pro, .flip-box-back-pro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  .flip-box-front-pro {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+  }
+  .flip-box-back-pro {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateX(180deg);
+    border-radius: 10px;
+  }
+  .year-area h2{
+    line-height: 50px;
+  }
+  .my2023{
+    color: blue;
+  }
+  .my2024{
+    color: orangered;
+  }
+  .my2025{
+    color: red;
+  }
+/* =========flip-box============ */
+/* =========ribbon========== */
+.ribbon {
+    width: 80px;
+    font-size: 20px;
+    padding: 4px;
+    position: absolute;
+    left: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(-20deg);
+    background-color: red;
+    color: white;
+  }
+/* =========ribbon========== */
