@@ -41,8 +41,6 @@ a:hover{
     top: 5%;
     right: 30px;
 }
-.nav-area{}
-.nav-area ul{}
 .nav-area li{
     display: inline-block;
     
@@ -95,7 +93,6 @@ a:hover{
     padding: 30px 0px;
     font-size: 20px;
 }
-.social-area{}
 .social-area li{
     display: inline-block;
 }
