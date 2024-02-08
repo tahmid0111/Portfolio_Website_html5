@@ -80,6 +80,7 @@ a:hover{
 }
 .common-header h1{
     width: 100%;
+    font-weight: bold;
 }
 .about-area{
     background-color: rgb(23, 22, 22);
@@ -127,20 +128,18 @@ a:hover{
 /* =========flip-box============ */
 .must-read-area{
   padding: 50px 0;
-  background-color: bisque;
+  background-color: rgb(199, 199, 199);
 }
 .flip-box {
     background-color: transparent;
     width: 300px;
     height: 400px;
-    border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 .flip-box-pro {
     background-color: transparent;
     width: 300px;
     height: 300px;
-    border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -263,17 +262,66 @@ a:hover{
 /* =========ribbon========== */
 /* =========skills-area-start========== */
 .skills-area{
-  background-color: rgb(234, 226, 255);
+  background-color: rgb(192, 168, 255);
   padding: 50px 0;
 }
+.skill-area-header h2{
+  font-weight: bold;
+  padding: 50px 0 10px 0;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 53%, rgba(144,236,255,1) 100%);
+  border-image-slice: 1;
+}
+.skill-area-header2 h2{
+  font-weight: bold;
+  padding: 50px 0 10px 0;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 53%, rgba(255,144,144,1) 100%);
+  border-image-slice: 1;
+}
+.skill-area-header3 h2{
+  font-weight: bold;
+  padding: 50px 0 10px 0;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 53%, rgba(255,254,144,1) 100%);
+  border-image-slice: 1;
+}
+.skill-area-body li{
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 53%, rgba(144,236,255,1) 100%);
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.skill-area-body1 li{
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 53%, rgba(144,236,255,1) 100%);
+}
+.skill-area-body2 li{
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 53%, rgba(255,144,144,1) 100%);
+}
+.skill-area-body3 li{
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 24%, rgba(249,255,144,1) 68%);
+}
+.skill-area-body img{
+  width: 40px;
+  height: 37px;
+  margin-right: 10px;
+}
+.skill-area-body span{
+  font-size: 22px;
+  font-weight: bold;
+}
 .tech-areaa{}
-.tech-areaa ul{}
+.tech-areaa ul{
+  
+}
 .tech-areaa li{
   background-color: black;
   color: white;
   display: inline-block;
-  padding: 5px 10px;
-  margin: 0 20px;
+  padding: 10px 20px;
+  margin: 15px 20px;
+  border-radius: 10px;
 }
 
 /* =========skills-area-end============ */
