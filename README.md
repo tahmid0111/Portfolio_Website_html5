@@ -4,7 +4,7 @@
 
 ### Live link: https://tahmid0111.github.io/Portfolio_Website_html5
 
-#####👻👻 In this project you can find everything about my career journey and _future goals_
+##### In this project you can find everything about my career journey and _future goals_
 
 ##### Sections
 
