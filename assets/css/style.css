@@ -54,7 +54,6 @@ a:hover{
     transition: .2s;
 }
 .nav-area li:hover a{
-    color: red;
     border-bottom: 2px solid red;
 }
 .writing-area{
@@ -73,6 +72,21 @@ a:hover{
 .writing-span{
     color: red !important;
 }
+/* =========ribbon========== */
+.ribbon {
+  width: 80px;
+  font-size: 20px;
+  padding: 4px;
+  position: absolute;
+  left: -25px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(-20deg);
+  background-color: red;
+  color: white;
+}
+/* =========ribbon========== */
 /* =========header-area-end=========== */
 /* =========about-area-start========== */
 .common-header{
@@ -126,7 +140,7 @@ a:hover{
 }
 /* =========about-area-end============ */
 /* =========flip-box============ */
-.must-read-area{
+/* .must-read-area{
   padding: 50px 0;
   background-color: rgb(199, 199, 199);
 }
@@ -134,17 +148,17 @@ a:hover{
     background-color: transparent;
     width: 100%;
     height: 400px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
   }
 .flip-box-pro {
     background-color: transparent;
     width: 100%;
     height: 320px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
   }
   
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
+   */
+  /* .flip-box-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -159,33 +173,31 @@ a:hover{
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-  }
+  } */
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
+  /* .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
   }
   .flip-box-pro:hover .flip-box-inner-pro {
     transform: rotateX(180deg);
-  }
+  } */
   
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
+  /* .flip-box-front, .flip-box-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
   .flip-box-front-pro, .flip-box-back-pro {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
   
-  /* Style the front side */
   .flip-box-front {
     background-color: black;
     color: white;
@@ -199,7 +211,6 @@ a:hover{
     border-radius: 20px;
   }
   
-  /* Style the back side */
   .flip-box-back {
     background-color: dodgerblue;
     color: white;
@@ -247,31 +258,16 @@ a:hover{
   }
   .my2025{
     color: red;
-  }
+  } */
 /* =========flip-box============ */
-/* =========ribbon========== */
-.ribbon {
-    width: 80px;
-    font-size: 20px;
-    padding: 4px;
-    position: absolute;
-    left: -25px;
-    top: -12px;
-    text-align: center;
-    border-radius: 25px;
-    transform: rotate(-20deg);
-    background-color: red;
-    color: white;
-  }
-/* =========ribbon========== */
 /* =========skills-area-start========== */
 .skills-area{
   background-color: rgb(192, 168, 255);
-  padding: 50px 0;
+  padding: 50px 50px 50px 80px;
 }
 .skill-area-header h2{
   font-weight: bold;
-  padding: 50px 0 10px 0;
+  padding: 20px 0 10px 0;
   border-bottom: 3px solid;
   border-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(229,255,255,1) 53%, rgba(144,236,255,1) 100%);
   border-image-slice: 1;
