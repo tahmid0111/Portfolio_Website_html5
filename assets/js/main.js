@@ -1,16 +1,21 @@
-//  showClock = () => {
-//     let date = new Date();
-//     let hours = date.getHours();
-//     let minutes = date.getMinutes();
-//     let seconds = date.getSeconds();
-  
-//     // Pad the hours and minutes with zeros if they are less than 10let   hours = (hours < 10) ? "0" + hours : hours;
-//     minutes = (minutes < 10) ? "0" + minutes : minutes;
-//     seconds = (seconds < 10) ? "0" + seconds : seconds;
-  
-//     // Set the content of the clock div with the current time.
-//     document.getElementById('clock').innerHTML = hours + ":" + minutes + ":" + seconds;
-//   }
-  
-//   // Set the clock to start ticking.
-//   setInterval(showClock, 1000);
+// *********button**********
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+// *********button**********
