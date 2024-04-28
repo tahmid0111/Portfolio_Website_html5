@@ -84,8 +84,7 @@ a:hover {
   transform: rotate(-20deg);
   background-color: red;
   color: white;
-}
-/* =========ribbon========== */
+}/* =========ribbon========== */
 /* =========header-area-end=========== */
 /* =========about-area-start========== */
 .common-header {
@@ -136,8 +135,38 @@ a:hover {
 .picture-area img {
   width: 70%;
   border-radius: 20px 0px 0px 20px;
+}/* =========about-area-end============ */
+/* =========education-area-start============ */
+.education-area{
+  background-color: rgb(255, 233, 122);
+  padding: 30px 0;
 }
-/* =========about-area-end============ */
+.education-area .school-name{
+  font-weight: bold;
+  color: red;
+}
+.education-area p{
+  padding: 40px 0;
+  font-size: 24px;
+}
+.education-area p a{
+  color: dodgerblue;
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+.front-edu h3{
+  background-color: rgb(255, 255, 255);
+  padding: 30px 20px;
+  border-radius: 0 20px 20px 0;
+  border-left: 10px solid red;
+}
+.study-btn{
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 15px 50px;
+}
+/* =========education-area-end============== */
 /* =========flip-box============ */
 /* .must-read-area{
   padding: 50px 0;
@@ -372,6 +401,10 @@ a:hover {
   margin-bottom: 20px;
   text-align: end;
 }
+.project-link-01 a, .project-link-02 a{
+  font-size: 20px;
+  font-weight: bold;
+}
 .card {
   border-radius: 30px;
 }
@@ -381,8 +414,7 @@ a:hover {
 .card-body h5 {
   color: dodgerblue;
   margin: 20px 0;
-}
-/* =========projects-area-end============== */
+}/* =========projects-area-end============== */
 /* =========footer-area-start============== */
 .footer-basic {
   padding: 40px 0;
@@ -434,8 +466,7 @@ a:hover {
   font-size: 13px;
   color: #aaa;
   margin-bottom: 0;
-}
-/* =========footer-area-end================ */
+}/* =========footer-area-end================ */
 /* **************return-button********** */
 #myBtn {
   display: none;
@@ -448,7 +479,7 @@ a:hover {
   background-color: #EC1C24;
   color: white;
   cursor: pointer;
-  padding: 15px 18px;
+  padding: 10px 10px;
   border-radius: 3px;
   font-size: 18px;
 }
