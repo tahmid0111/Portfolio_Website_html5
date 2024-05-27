@@ -9,6 +9,8 @@
 ##### Sections
 
 1. About Us
-2. 
+2. Education
+3. Skills
+4. Projects
 
 
